@@ -79,13 +79,13 @@ Note: Please don't run app.py as it is incomplete and but it can be used to writ
 
 You should pay attention to the following considerations when designing your solution :
 ● Is the model overfitting? The model is not overfitting as there is very less difference between train and val error
-● Is the model retrainable given additional data? The model is retrainable with additional data .In case of new feature is added ,it won't take much effort to train the model again
+● Is the model retrainable given additional data? The model is retrainable with additional data .In case of new feature is added ,it won't take much effort to train the model again also as there was less datapoint so didn't add condition to handle Null values
 
-******Summary***********
+***Summary**
 
   training's rmse: 0.776794       valid_1's rmse: 0.732964
   
- *******Productionization of Model**********
+ *********Productionization of Model************
  
  Efforts will be very less as all the feature engineering  has been done using methods with standard inputs 
  It won't take much effort to add api's in app.py to fetch the model output
@@ -93,7 +93,7 @@ You should pay attention to the following considerations when designing your sol
   
   
  
- How Could I have improved  model?
+**** How Could I have improved  model?****
  
  1.Give the more data points ,I could have done more data analysis in order to understand the data
  2.I could have tried SVM regressor or other Advance regression techniques
